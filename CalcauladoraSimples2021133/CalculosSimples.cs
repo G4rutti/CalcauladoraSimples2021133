@@ -12,5 +12,10 @@ public class CalculosSimples
         return soma;
     }
 
-    
+    public double Subtrair(double numero1, double numero2)
+    {
+        double subtracao = numero1 - numero2;
+        return subtracao;
+    }
+
 }
