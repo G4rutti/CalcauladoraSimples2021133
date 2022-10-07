@@ -25,11 +25,14 @@ switch (opcao)
         Console.WriteLine($"{numero1} - {numero2} = {resultadoSubtracao}");
         break;
     case 3:
-        //Código para dividir
+        double resultadoDivisao = new CalculosSimples().Dividir(numero1, numero2);
+        Console.WriteLine($"{numero1} / {numero2} = {resultadoDivisao}");
         break;
     case 4:
-        //Código para multiplicar
+        double resultadoMultiplicacao = new CalculosSimples().Multiplicar(numero1, numero2);
+        Console.WriteLine($"{numero1} * {numero2} = {resultadoMultiplicacao}"); 
         break;
+
     default:
         Console.WriteLine("Opção inválida!");
         break;
